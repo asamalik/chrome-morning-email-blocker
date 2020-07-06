@@ -1,0 +1,13 @@
+{
+    "name": "Blocking email in the morning",
+    "version": "1.0",
+    "description": "Blocks email in the morning!",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+      },
+    "permissions": [
+        "webRequest", "webRequestBlocking", "https://mail.google.com/"
+    ],
+    "manifest_version": 2
+  }
